@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Catt.cpp" />
     <ClCompile Include="Classes.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Catt.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
