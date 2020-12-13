@@ -1,7 +1,11 @@
 #pragma once
  class Catt
 {
-	public:
+private:
+	bool happy;
+public:
+	void make_happy();
+	void make_sad();
 	void speak();
 };
 
